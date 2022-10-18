@@ -1,9 +1,8 @@
 <?php
+
 $id=$_GET['id'];
 $email=$_POST["email"];
 $password=$_POST["password"];
-
-
 $con=mysqli_connect("localhost","root","","rating") or die("query faild ");
 $sql="SELECT * from register where Email='$email' and Password='$password'";
 $result=mysqli_query($con, $sql);
