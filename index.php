@@ -1,6 +1,7 @@
 <?php include "header.php";
 
 //this is index page.d
+//testing
 $con=mysqli_connect("localhost","root","","rating") or die("query faild ");
 $sql="SELECT * FROM product;";
 $result=mysqli_query($con, $sql);
