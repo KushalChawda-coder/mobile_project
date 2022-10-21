@@ -5,8 +5,8 @@
      <div class="col-md-6">
         <?php  if (isset($_SESSION["name"])) { ?>
         <div class="alert alert-success d-flex justify-content-end success" role="alert">
-        <?php echo $_SESSION["name"];
-        unset($_SESSION['name']);
+        <?php echo   "success.....";
+               header("location: http://localhost/mobile%20project/index.php");
         ?>
         </div>
       <?php  }  ?>
